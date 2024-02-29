@@ -13,10 +13,8 @@ const Home = () => {
         <Image src={Robozinho} alt="Robozinho" />
       </ContainerHome>
       <ContainerHome2>
-        <Escrevendo>
-          Uma mistura de Design, Desenvolvimento Frontend e habilidade profissional que vão destacar seu produto no mercado.
-        </Escrevendo>
-        <Button>Aprenda Frontend comigo</Button>
+        <Escrevendo>Meu nome é <Span>Ruan Batista</Span>, Desenvolvedor Front-end</Escrevendo>
+        <Button>Venha me Conhecer!</Button>
       </ContainerHome2>
     </div>
   );

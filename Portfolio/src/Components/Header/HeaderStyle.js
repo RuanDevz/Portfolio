@@ -1,14 +1,25 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components';
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
 
 export const HeaderContainer = styled.header`
-background-color: #111111;
-display: flex;
-align-items: center;
-justify-content: space-between;
-max-width: 1200px;
-margin: 0 auto;
-padding-top: 25px;
-`
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+  animation: ${fadeIn} 1s ease-in;
+`;
 
 export const Logo = styled.h1`
 color: #fff;
@@ -20,6 +31,7 @@ export const ContainerLinks = styled.div`
 display: flex;
 gap: 80px;
 `
+
 
 export const Links = styled.li`
   color: #d8d8d8;
