@@ -10,9 +10,9 @@ const Header = () => {
     <HeaderContainer>
         <Logo>R<Logocolor>u</Logocolor>a<Logocolor>n</Logocolor></Logo>
         <ContainerLinks>
-        <Links>Blog</Links>
-        <Links>Setup</Links>
-        <Links>eBook</Links>
+        <Links>Linkedin</Links>
+        <Links>Github</Links>
+        <Links>Facebook</Links>
         </ContainerLinks>
     </HeaderContainer>
   )
