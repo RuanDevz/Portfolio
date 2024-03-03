@@ -55,6 +55,7 @@ export const Links = styled.li`
   background-repeat: no-repeat;
   transition: background-size 400ms;
   padding-bottom: 1px;
+  text-decoration: none;
 
   &:hover {
     color: #fff;

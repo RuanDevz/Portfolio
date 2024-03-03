@@ -5,20 +5,41 @@ width: 100%;
 margin: 0 auto;
 background-color: #151515;
 margin-top: 200px;
+height: 700px;
+border-radius: 10px;
 `
 
 export const TitleExperiencia = styled.h1`
-text-align: left;
+text-align: center;
 color: #fff;
 font-size: 2em;
+margin-top: 180px;
+padding: 100px 0px;
+`
+
+export const Anoexperiencia = styled.p`
+color:#696e75;
+margin-bottom: 30px;
+font-size: 1.1em;
+`
+
+export const Empresatrabalhada = styled.h2`
+color: #fff;
+font-size: 1.1em;
+text-align: left;
+margin-bottom: 30px;
+margin-left: 100px;
 `
 
 export const ContainerOptionsExperiencia = styled.div`
 display: flex;
+justify-content: center;
+align-items: center;
 flex-direction: column;
 background-color: #111111;
 width: 500px;
-height: 200px;
+height: 130%;
+margin-left: 100px;
 `
 
 export const ContainerGeralExperiencia = styled.div`
@@ -32,22 +53,36 @@ font-weight: bolder;
 color: #fff;
 text-align: left;
 margin-top: 40px;
+cursor: pointer;
+padding: 15px 5px;
 
-&:hover{
+&:{
     border-left: 5px solid #33ffff;
 }
+`
+
+export const ContainerTitle = styled.div`
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 `
 export const ContainerResumoExperiencia = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
+max-width: 800px;
+text-align: center;
 `
 
 export const TitleResumoExperiencia = styled.h1`
 color: #fff;
 font-size: 2em;
 text-align: center;
+color: #29cccc;
+margin-bottom: 30px;
 `
 export const ResumoExperiencias = styled.p`
 color: #696e75;
+font-size: 1.2em;
+letter-spacing: 2px;
 `

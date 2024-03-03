@@ -1,24 +1,69 @@
-// eslint-disable-next-line no-unused-vars
-import React from 'react'
-import { ContainerExperiencia, TitleExperiencia,ContainerOptionsExperiencia, OptionsExperiencia, ContainerResumoExperiencia,ResumoExperiencias,ContainerGeralExperiencia, TitleResumoExperiencia } from './../Experiencias/Experiencias';
+import React, { useState } from 'react';
+import { ContainerExperiencia, TitleExperiencia, ContainerOptionsExperiencia, OptionsExperiencia, ContainerResumoExperiencia, ResumoExperiencias, ContainerGeralExperiencia, TitleResumoExperiencia, ContainerTitle, Anoexperiencia, Empresatrabalhada } from './../Experiencias/Experiencias';
 
 const Experiencias = () => {
+  const [selectedOption, setSelectedOption] = useState("São João de Patos");
+
+  const Todosresumos = {
+    "São João de Patos": 'Este projeto FREELANCER foi realizado para a empresa de Patos, com o objetivo de reunir votos de mais de 5 mil pessoas para avaliar a experiência do São João de 2023. O objetivo era entender as preferências e expectativas do público para o São João de 2024, incluindo as atrações desejadas para o evento.',
+    "Experiencia 2": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque ipsa recusandae ipsam, architecto quis perferendis aspernatur, nisi pariatur, quaerat obcaecati nostrum similique totam nihil facere quibusdam incidunt hic harum.",
+    "Experiencia 3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, aspernatur. Quas rem repellendus vitae doloribus. Voluptate quam dignissimos aliquid! Sequi laboriosam possimus quasi adipisci eligendi deleniti natus autem aspernatur molestiae."
+  };
+
+  const Empresas = {
+    "São João de Patos": "Prefeitura Municipal e Coollab Creative",
+    "Experiencia 2": "Empresa da Experiência 2",
+    "Experiencia 3": "Empresa da Experiência 3"
+  };
+
+  const tempodeexperiencia = {
+    "São João de Patos": {
+      mes: "FEV - ",
+      ano: 2024,
+      tempo: "(1 Mês)"
+    },
+    "Experiencia 2": {
+      mes: "MAR - ",
+      ano: 9999,
+      tempo: "(Sem a Experiência)"
+    },
+    "Experiencia 3": {
+      mes: "ABR - ",
+      ano: 9999,
+      tempo: "(Sem a Experiência)"
+    }
+  };
+
+  const handleOptionClick = (option) => {
+    setSelectedOption(option);
+  };
+
+  const getBorderStyle = (option) => {
+    return selectedOption === option ? { color: '#33ffff' } : {};
+  };
+
   return (
     <ContainerExperiencia>
-        <TitleExperiencia>Experiências</TitleExperiencia>
+      <TitleExperiencia>Experiências</TitleExperiencia>
       <ContainerGeralExperiencia>
         <ContainerOptionsExperiencia>
-          <OptionsExperiencia>São João de Patos</OptionsExperiencia>
-          <OptionsExperiencia>Find A Friend</OptionsExperiencia>
-          <OptionsExperiencia>São João de Patos</OptionsExperiencia>
+          <OptionsExperiencia onClick={() => handleOptionClick("São João de Patos")} style={getBorderStyle("São João de Patos")}>São João de Patos</OptionsExperiencia>
+          <OptionsExperiencia onClick={() => handleOptionClick("Experiencia 2")} style={getBorderStyle("Experiencia 2")}>Experiencia 2</OptionsExperiencia>
+          <OptionsExperiencia onClick={() => handleOptionClick("Experiencia 3")} style={getBorderStyle("Experiencia 3")}>Experiencia 3</OptionsExperiencia>
         </ContainerOptionsExperiencia>
         <ContainerResumoExperiencia>
-          <TitleResumoExperiencia>São João de Patos</TitleResumoExperiencia>
-          <ResumoExperiencias>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eveniet tempore dicta voluptate soluta dolores, blanditiis laborum eius ullam. Dolorem ullam repudiandae amet explicabo quas ex facilis porro possimus minima!</ResumoExperiencias>
+          <ContainerTitle>
+            <TitleResumoExperiencia>{selectedOption}</TitleResumoExperiencia>
+            {tempodeexperiencia[selectedOption] &&
+              <Anoexperiencia>{tempodeexperiencia[selectedOption].mes} {tempodeexperiencia[selectedOption].ano} {tempodeexperiencia[selectedOption].tempo}</Anoexperiencia>
+            }
+          </ContainerTitle>
+          <Empresatrabalhada>{Empresas[selectedOption]}</Empresatrabalhada>
+          <ResumoExperiencias>{Todosresumos[selectedOption]}</ResumoExperiencias>
         </ContainerResumoExperiencia>
       </ContainerGeralExperiencia>
     </ContainerExperiencia>
-  )
-}
+  );
+};
 
 export default Experiencias;
