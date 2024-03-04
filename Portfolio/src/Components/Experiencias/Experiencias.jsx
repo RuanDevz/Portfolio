@@ -5,7 +5,7 @@ const Experiencias = () => {
   const [selectedOption, setSelectedOption] = useState("São João de Patos");
 
   const Todosresumos = {
-    "São João de Patos": 'Este projeto FREELANCER foi realizado para a empresa de Patos, com o objetivo de reunir votos de mais de 5 mil pessoas para avaliar a experiência do São João de 2023. O objetivo era entender as preferências e expectativas do público para o São João de 2024, incluindo as atrações desejadas para o evento.',
+    "São João de Patos": 'Este projeto FREELANCER foi realizado para a Prefeitura da cidade de Patos, com o objetivo de reunir votos de mais de 5 mil pessoas para avaliar a experiência do São João de 2023. O objetivo era entender as preferências e expectativas do público para o São João de 2024, incluindo as atrações desejadas para o evento.',
     "Experiencia 2": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque ipsa recusandae ipsam, architecto quis perferendis aspernatur, nisi pariatur, quaerat obcaecati nostrum similique totam nihil facere quibusdam incidunt hic harum.",
     "Experiencia 3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, aspernatur. Quas rem repellendus vitae doloribus. Voluptate quam dignissimos aliquid! Sequi laboriosam possimus quasi adipisci eligendi deleniti natus autem aspernatur molestiae."
   };
@@ -18,7 +18,7 @@ const Experiencias = () => {
 
   const tempodeexperiencia = {
     "São João de Patos": {
-      mes: "FEV - ",
+      mes: "JAN/FEV - ",
       ano: 2024,
       tempo: "(1 Mês)"
     },
