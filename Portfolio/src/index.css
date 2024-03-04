@@ -11,27 +11,3 @@ body{
     background-color: #111111;
     font-family: "Poppins", sans-serif;
 }
-
-
-::-webkit-scrollbar {
-    width: 10px; 
-    height: 5px; 
-}
-
-::-webkit-scrollbar-track {
-    background-color: #111111; 
-    border-radius: 5px; 
-}
-
-
-::-webkit-scrollbar-thumb {
-    background-color: #33ffff;
-    border-radius: 5px; 
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #33ccff; 
-}
-
-  
