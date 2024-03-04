@@ -1,7 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { Apresentacao, Span, ContainerHome, Image, Escrevendo, ContainerHome2,Button } from './HomeStyle'; 
-import Robozinho from '../../assets/Logo/Robozinho.png'; 
+import Robozinho from '../../assets/Logo/Robozinho.png';
+import Experiencias from '../Experiencias/Experiencias.jsx'
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
       </ContainerHome>
       <ContainerHome2>
         <Escrevendo>Meu nome é <Span>Ruan Batista</Span>, Desenvolvedor Front-end</Escrevendo>
-        <Button>Venha me Conhecer!</Button>
+        <a href={<Experiencias />}><Button>Venha me Conhecer!</Button></a>
       </ContainerHome2>
     </div>
   );
