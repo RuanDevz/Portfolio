@@ -12,6 +12,12 @@ text-align: left;
 color: #fff;
 font-size: 2em;
 `
+
+export const TitleTecnologia = styled.h2`
+font-size: 2em;
+color: #33ffff;
+text-align: center;
+`
 export const P = styled.p`
 color: #696e75;
 font-size: 1em;
@@ -34,7 +40,7 @@ max-width: 600px;
 export const Skills = styled.img`
   width: 125px;
   color: #33ffff;
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   display: flex;
   background-color: #151515;

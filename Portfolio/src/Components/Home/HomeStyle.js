@@ -64,8 +64,8 @@ export const ContainerHome = styled.div`
 
 
 export const Apresentacao = styled.h1`
-  margin-top: 0px;
-  font-size: 2.3em;
+  margin-bottom: 20px;
+  font-size: 2em;
   font-weight: 500;
   max-width: 800px;
   color: #fff;
@@ -93,6 +93,7 @@ export const Escrevendo = styled.p`
   color: #696e75;
   max-width: 640px;
   font-size: 1.5em;
+  margin-top: 20px;
   position: absolute;
   top: 500px;
   white-space: nowrap;

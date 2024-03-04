@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <ContainerHome>
         <Apresentacao>
-          Ajudando empresas a construírem <Span>produtos digitais</Span> de forma moderna e de alta qualidade.
+        Em Busca de Novas Oportunidades: Programador Empenhado em Contribuir para o <Span> Desenvolvimento de Projetos</Span> Digitais de Excelência
         </Apresentacao>
         <Image src={Robozinho} alt="Robozinho" />
       </ContainerHome>
