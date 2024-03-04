@@ -10,6 +10,7 @@ const App = () => {
       <Header />
       <Home />
       <Experiencias/>
+      <Conhecimentos/>
     </div>
   )
 }
