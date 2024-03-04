@@ -31,7 +31,7 @@ const Conhecimentos = () => {
     <Container>
       <ContainerTitle>
         <TitleConhecimento>Conhecimentos</TitleConhecimento>
-        <P>* PASSE O MOUSE POR CIMA PARA LER SOBRE AS TECNOLOGIAS *</P>
+        <P>** PASSE O MOUSE POR CIMA PARA LER SOBRE AS TECNOLOGIAS **</P>
         <TitleTecnologia>{descricaoTecnologia.nome}</TitleTecnologia>
         <P>{descricaoTecnologia.descricao}</P>
       </ContainerTitle>
