@@ -56,9 +56,6 @@ margin-top: 40px;
 cursor: pointer;
 padding: 15px 5px;
 
-&:{
-    border-left: 5px solid #33ffff;
-}
 `
 
 export const ContainerTitle = styled.div`

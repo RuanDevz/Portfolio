@@ -44,11 +44,11 @@ export const Skills = styled.img`
   border-radius: 5px;
   display: flex;
   background-color: #151515;
-  border: 2px solid transparent; /* Define uma borda transparente */
-  transition: border 0.5s ease; /* Transição suave da borda */
+  border: 2px solid transparent; 
+  transition: border 0.5s ease; 
 
   &:hover {
-    border: 2px solid #33ffff; /* Altera a borda ao passar o mouse */
+    border: 2px solid #33ffff; 
   }
 `;
 
