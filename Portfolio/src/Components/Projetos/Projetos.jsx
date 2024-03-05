@@ -28,6 +28,11 @@ const Projetos = () => {
             Title: "Mario e Luigi",
             Resumo: "Site de apresentação do filme do Mario, feito com HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/youtube-site-mario/"
+        },
+        {
+            Title: "Lista de Tarefas",
+            Resumo: "Lista de tarefas com localstorage, feito com HTML, CSS e Javascript",
+            Link: "https://ruandevz.github.io/Geek-University-Projeto-I/"
         }
     ];
 
@@ -43,6 +48,7 @@ const Projetos = () => {
                     </Projeto>
                 ))}
             </ContainerProjects>
+            <a href="https://github.com/RuanDevz?tab=repositories" target='_blank' id='repositorio'>Meus Repositorios</a>
         </ContainerGeralProject>
     );
 };

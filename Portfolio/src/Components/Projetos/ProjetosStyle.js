@@ -4,6 +4,36 @@ background-color: #151515;
 display: flex;
 flex-direction: column;
 align-items: center;
+
+a#repositorio{
+  color: #d8d8d8;
+  font-size: 1.2em;
+  cursor: pointer;
+  list-style-type: none;
+  background: 
+    linear-gradient(
+      to right,
+      transparent,
+      transparent
+    ),
+    linear-gradient(
+      to right,
+      #33ffff,
+      #33ffff,
+      #33ffff
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  padding-bottom: 1px;
+  text-decoration: none;
+  margin: 60px 0px;
+  &:hover {
+    color: #fff;
+    background-size: 0 3px, 100% 3px;
+  }
+}
 `
 export const TitleProject = styled.h1`
 
@@ -30,6 +60,7 @@ background-color: #111111;
 padding: 50px;
 border-radius: 5px;
 width: 400px;
+height: 300px;
 border: 2px solid transparent; 
 transition: border 0.5s ease; 
 

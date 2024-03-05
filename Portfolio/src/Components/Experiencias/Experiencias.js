@@ -4,8 +4,7 @@ export const ContainerExperiencia = styled.div`
 width: 100%;
 margin: 0 auto;
 background-color: #151515;
-margin-top: 200px;
-height: 700px;
+height: 750px;
 border-radius: 10px;
 `
 
