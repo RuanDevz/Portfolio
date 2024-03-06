@@ -78,6 +78,11 @@ height: 300px;
 border: 2px solid transparent; 
 transition: border 0.5s ease; 
 
+@media screen and (max-width: 767px){
+  width: 300px;
+  height: 400px;
+}
+
   &:hover {
     border: 2px solid #33ffff; 
   }
@@ -126,7 +131,5 @@ button{
 a{
     text-decoration: none;
 }
-
-    
 }
 `

@@ -19,7 +19,65 @@ export const HeaderContainer = styled.header`
   margin: 0 auto;
   padding-top: 25px;
   animation: ${fadeIn} 1s ease-in;
+
+  @media screen and (max-width: 767px) {
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+}
 `;
+
+export const MenuHamburger = styled.div`
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  z-index: 2;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .3s;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: #33ffff;
+  border-radius: 5px;
+  transition-duration: .3s;
+}
+
+#checkbox:checked + .toggle .bars {
+  margin-left: 13px;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: rotate(135deg);
+  margin-left: 0;
+  transform-origin: center;
+  transition-duration: .3s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  transform: rotate(45deg);
+  transition-duration: .3s;
+  transform-origin: left center;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  transform: rotate(-45deg);
+  transition-duration: .3s;
+  transform-origin: left center;
+}
+
+`
 
 export const Logo = styled.h1`
 color: #fff;
@@ -30,6 +88,26 @@ letter-spacing: 2px;
 export const ContainerLinks = styled.div`
 display: flex;
 gap: 80px;
+
+@media screen and (max-width: 767px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  background-color: #151515;
+  width: 100%;
+  height: 100%;
+  animation: ${fadeIn} .5s ease;
+
+  a{
+    font-size: 2em;
+  }
+}
 `
 
 

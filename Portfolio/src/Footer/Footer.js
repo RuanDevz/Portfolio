@@ -5,6 +5,12 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 
+@media screen and (max-width: 767px){
+    p{
+        display: none;
+    } 
+}
+
 p{
     color: #fff;
 }
