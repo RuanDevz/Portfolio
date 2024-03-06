@@ -45,7 +45,7 @@ const Experiencias = () => {
   return (
     <ContainerExperiencia>
       <TitleExperiencia>Experiências</TitleExperiencia>
-      <ContainerGeralExperiencia>
+      <ContainerGeralExperiencia id='ContainerGeralExperiencia'>
         <ContainerOptionsExperiencia>
           <OptionsExperiencia onClick={() => handleOptionClick("São João de Patos")} style={getBorderStyle("São João de Patos")}>São João de Patos</OptionsExperiencia>
           <OptionsExperiencia onClick={() => handleOptionClick("Experiencia 2")} style={getBorderStyle("Experiencia 2")}>Experiencia 2</OptionsExperiencia>

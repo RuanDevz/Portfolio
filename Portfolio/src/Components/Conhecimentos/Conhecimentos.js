@@ -1,4 +1,16 @@
-import styled from 'styled-components'
+import styled,{keyframes} from 'styled-components'
+
+const fadeInFromTop = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
 
 export const Container = styled.div`
 display: flex;
@@ -29,6 +41,7 @@ display: flex;
 flex-direction: column;
 gap: 50px;
 letter-spacing: 1px;
+animation: ${fadeInFromTop} 2s ease;
 `
 
 export const ContainerSkills = styled.div`
@@ -46,6 +59,7 @@ export const Skills = styled.img`
   background-color: #151515;
   border: 2px solid transparent; 
   transition: border 0.5s ease; 
+  animation: ${fadeInFromTop} 2s ease;
 
   &:hover {
     border: 2px solid #33ffff; 

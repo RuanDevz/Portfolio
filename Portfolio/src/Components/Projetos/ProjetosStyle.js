@@ -1,4 +1,17 @@
-import styled from 'styled-components'
+import styled,{keyframes} from 'styled-components'
+
+const fadeInFromTop = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
 export const ContainerGeralProject = styled.div`
 background-color: #151515;
 display: flex;
@@ -51,6 +64,7 @@ align-items: center;
 flex-wrap: wrap;
 gap: 80px;
 max-width: 1600px;
+animation: ${fadeInFromTop} 2s ease;
 `
 
 export const Projeto = styled.div`

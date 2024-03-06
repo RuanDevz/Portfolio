@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, TitleConhecimento, ContainerSkills, Skills, DivSkill, P, ContainerTitle, TitleTecnologia } from './Conhecimentos';
 import HTML from '../../assets/Icons/html.png';
 import CSS from '../../assets/Icons/css-3.png';
@@ -20,6 +20,7 @@ const tecnologias = [
 const Conhecimentos = () => {
   const [descricaoTecnologia, setDescricaoTecnologia] = useState(tecnologias[0]);
 
+
   return (
     <Container>
       <ContainerTitle>
@@ -31,7 +32,7 @@ const Conhecimentos = () => {
       <ContainerSkills>
         {tecnologias.map(tecnologia => (
           <DivSkill key={tecnologia.nome}>
-            <Skills onMouseOver={() => setDescricaoTecnologia(tecnologia)} src={icons[tecnologia.nome]} alt={tecnologia.nome} />
+            <Skills id='Skills' onMouseOver={() => setDescricaoTecnologia(tecnologia)} src={icons[tecnologia.nome]} alt={tecnologia.nome} />
           </DivSkill>
         ))}
       </ContainerSkills>
