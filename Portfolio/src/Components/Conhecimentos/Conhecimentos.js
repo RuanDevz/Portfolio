@@ -17,6 +17,10 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 height: 700px;
+@media screen and (max-width: 767px){
+  display: flex;
+  flex-direction: column;
+}
 `
 
 export const TitleConhecimento = styled.h1`
@@ -29,11 +33,19 @@ export const TitleTecnologia = styled.h2`
 font-size: 2em;
 color: #33ffff;
 text-align: center;
+
+@media screen and (max-width: 767px){
+  display: none;
+}
 `
 export const P = styled.p`
 color: #696e75;
 font-size: 1em;
 max-width: 600px;
+
+@media screen and (max-width: 767px){
+  display: none;
+}
 `
 
 export const ContainerTitle = styled.div`
@@ -42,6 +54,7 @@ flex-direction: column;
 gap: 50px;
 letter-spacing: 1px;
 animation: ${fadeInFromTop} 2s ease;
+
 `
 
 export const ContainerSkills = styled.div`

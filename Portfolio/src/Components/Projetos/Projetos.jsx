@@ -15,11 +15,6 @@ const Projetos = () => {
             Link: "https://ruandevz.github.io/FindAFriend/"
         },
         {
-            Title: "Mercado Livre",
-            Resumo: "Site de buscas do mercado livre, feito em React",
-            Link: "https://carrinho-de-compras-blush-delta.vercel.app/"
-        },
-        {
             Title: "Buscador de CEP",
             Resumo: "Buscador de CEP feito com React e Axios",
             Link: "https://ruandevz.github.io/Buscador-de-CEP/"
@@ -33,6 +28,11 @@ const Projetos = () => {
             Title: "Lista de Tarefas",
             Resumo: "Lista de tarefas com localstorage, feito com HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/Geek-University-Projeto-I/"
+        },
+        {
+            Title: "Em construção",
+            Resumo: "Site de buscas do mercado livre, feito em React",
+            Link: ""
         }
     ];
 

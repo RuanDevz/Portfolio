@@ -18,6 +18,7 @@ export const ContainerExperiencia = styled.div`
   background-color: #151515;
   height: 750px;
   border-radius: 10px;
+
 `;
 
 export const TitleExperiencia = styled.h1`
@@ -40,6 +41,14 @@ export const Empresatrabalhada = styled.h2`
   text-align: left;
   margin-bottom: 30px;
   margin-left: 100px;
+
+  @media screen and (max-width: 767px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-left: 0px;
+  }
 `;
 
 export const ContainerOptionsExperiencia = styled.div`
@@ -51,6 +60,10 @@ export const ContainerOptionsExperiencia = styled.div`
   width: 500px;
   height: 130%;
   margin-left: 100px;
+
+  @media screen and (max-width: 767px){
+    display: none;
+  }
 `;
 
 export const ContainerGeralExperiencia = styled.div`
@@ -74,6 +87,13 @@ export const ContainerTitle = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  @media screen and (max-width: 767px){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const ContainerResumoExperiencia = styled.div`
@@ -90,10 +110,21 @@ export const TitleResumoExperiencia = styled.h1`
   text-align: center;
   color: #29cccc;
   margin-bottom: 30px;
+
+  @media screen and (max-width: 767px){
+    font-size: 1.3em;
+  }
 `;
 
 export const ResumoExperiencias = styled.p`
   color: #696e75;
   font-size: 1.2em;
   letter-spacing: 2px;
+  @media screen and (max-width: 767px){
+    font-size: 1em;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
 `;

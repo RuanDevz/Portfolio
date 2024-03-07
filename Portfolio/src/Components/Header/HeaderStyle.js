@@ -89,7 +89,6 @@ export const ContainerLinks = styled.div`
 display: flex;
 gap: 80px;
 
-@media screen and (max-width: 767px) {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +98,7 @@ gap: 80px;
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 1;
-  background-color: #151515;
+  background-color: #151515a9;
   width: 100%;
   height: 100%;
   animation: ${fadeIn} .5s ease;
@@ -107,7 +106,6 @@ gap: 80px;
   a{
     font-size: 2em;
   }
-}
 `
 
 
