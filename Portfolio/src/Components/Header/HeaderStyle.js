@@ -102,6 +102,7 @@ gap: 80px;
   width: 100%;
   height: 100%;
   animation: ${fadeIn} .5s ease;
+  position: fixed;
 
   a{
     font-size: 2em;

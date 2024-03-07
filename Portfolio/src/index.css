@@ -12,6 +12,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 ::-webkit-scrollbar {
     width: 12px; 
   }
