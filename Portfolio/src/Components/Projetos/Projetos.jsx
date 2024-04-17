@@ -10,6 +10,11 @@ const Projetos = () => {
             Link: "https://saojoao-patos-certo.vercel.app/"
         },
         {
+            Title: "Pizzaria Mania",
+            Resumo: "Site de uma pizzaria feita de React e Node.js",
+            Link: "https://pizzariamania3.vercel.app/"
+        },
+        {
             Title: "FindAFriend",
             Resumo: "Site de doação de pets, Feito em HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/FindAFriend/"
@@ -23,11 +28,6 @@ const Projetos = () => {
             Title: "Mario e Luigi",
             Resumo: "Site de apresentação do filme do Mario, feito com HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/youtube-site-mario/"
-        },
-        {
-            Title: "Pizzaria Mania",
-            Resumo: "Site de uma pizzaria feita de React e Node.js",
-            Link: "https://pizzariamania3.vercel.app/"
         },
         {
             Title: "Em construção",
