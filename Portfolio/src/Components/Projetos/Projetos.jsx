@@ -25,9 +25,9 @@ const Projetos = () => {
             Link: "https://ruandevz.github.io/youtube-site-mario/"
         },
         {
-            Title: "Em construção",
-            Resumo: "Site de buscas do mercado livre, feito em React",
-            Link: ""
+            Title: "Pizzaria Mania",
+            Resumo: "Site de uma pizzaria feita de React e Node.js",
+            Link: "https://pizzariamania3.vercel.app/"
         },
         {
             Title: "Em construção",
