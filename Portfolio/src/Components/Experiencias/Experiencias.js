@@ -1,16 +1,6 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
-const fadeInFromTop = keyframes`
-  from {
-    opacity: 0;
-    transform: translateY(-20%);
-  }
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-`;
 
 export const ContainerExperiencia = styled.div`
   width: 100%;
@@ -42,7 +32,7 @@ export const Empresatrabalhada = styled.h2`
   margin-bottom: 30px;
   margin-left: 100px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +51,7 @@ export const ContainerOptionsExperiencia = styled.div`
   height: 130%;
   margin-left: 100px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: none;
   }
 `;
@@ -70,7 +60,6 @@ export const ContainerGeralExperiencia = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  animation: ${fadeInFromTop} 1s ease; /* Mantém a animação apenas neste componente */
 `;
 
 export const OptionsExperiencia = styled.p`
@@ -88,7 +77,7 @@ export const ContainerTitle = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,7 +100,7 @@ export const TitleResumoExperiencia = styled.h1`
   color: #29cccc;
   margin-bottom: 30px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     font-size: 1.3em;
   }
 `;
@@ -120,7 +109,7 @@ export const ResumoExperiencias = styled.p`
   color: #696e75;
   font-size: 1.2em;
   letter-spacing: 2px;
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     font-size: 1em;
     max-width: 300px;
     text-align: center;

@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   height: 700px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     flex-direction: column;
     margin-bottom: 200px;
@@ -19,7 +19,7 @@ export const TitleConhecimento = styled.h1`
   color: #fff;
   font-size: 2em;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     padding: 50px 0px;
   }
 `;
@@ -29,7 +29,7 @@ export const TitleTecnologia = styled.h2`
   color: #33ffff;
   text-align: center;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: none;
   }
 `;
@@ -39,7 +39,7 @@ export const P = styled.p`
   font-size: 1em;
   max-width: 600px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: none;
   }
 `;
@@ -76,7 +76,7 @@ export const DivSkill = styled.div`
   display: flex;
   margin: 30px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     justify-content: center;
     align-items: center;

@@ -61,7 +61,7 @@ export const ContainerHome = styled.div`
   max-width: 1200px;
   margin-top: 40px;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -77,7 +77,7 @@ export const Apresentacao = styled.h1`
   color: #fff;
   animation: ${Fadeinlefttoright} 1s;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     font-size: 1.2em;
     text-align: center;
     max-width: 300px;
@@ -96,7 +96,7 @@ export const Image = styled.img`
   animation: ${animationrobot} 1.5s ease-in-out forwards;
   animation-delay: 3s;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     width: 110px;
     position: relative;
     bottom: 60px;
@@ -108,7 +108,7 @@ export const ContainerHome2 = styled.div`
   max-width: 1200px;
   margin: 0 auto;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     display: flex;
     justify-content: center;
   }
@@ -127,7 +127,7 @@ export const Escrevendo = styled.p`
   border-right: 4px solid #29cccc;
   animation: ${Typing} 4s steps(60), ${Blinking} 1s infinite step-end, ${BlinkCursor} 1s infinite;
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     max-width: 320px;
   }
 `;
@@ -148,7 +148,7 @@ export const Button = styled.button`
     transform: scale(1.05);
   }
 
-  @media screen and (max-width: 767px){
+  @media screen and (max-width: 1150px){
     margin-top: 30px;
   }
 `;
