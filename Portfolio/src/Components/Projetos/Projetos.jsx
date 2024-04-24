@@ -46,7 +46,7 @@ const Projetos = () => {
             <TitleProject>Projetos</TitleProject>
             <ContainerProjects>
                 {projects.map((project, index) => (
-                    <Projeto key={index}>
+                    <Projeto data-aos="flip-left" key={index}>
                         <h1>{project.Title}</h1>
                         <p>{project.Resumo}</p>
                         <a href={project.Link} target='_blank' style={{ textDecoration: 'none' }}><button>Visualizar projeto</button></a>
