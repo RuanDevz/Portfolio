@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { TitleProject, ContainerGeralProject, ContainerProjects, Projeto } from './ProjetosStyle';
+import Aos from 'aos';
 
 const Projetos = () => {
+
+    useEffect(() => {
+        Aos.init({duration: "1500"})
+    },[])
 
     const projects = [
         {
@@ -37,7 +42,7 @@ const Projetos = () => {
     ];
 
     return (
-        <ContainerGeralProject>
+        <ContainerGeralProject data-aos="fade-down">
             <TitleProject>Projetos</TitleProject>
             <ContainerProjects>
                 {projects.map((project, index) => (

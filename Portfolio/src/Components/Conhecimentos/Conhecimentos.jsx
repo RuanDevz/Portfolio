@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import { Container, TitleConhecimento, ContainerSkills, Skills, DivSkill, P, ContainerTitle, TitleTecnologia } from './Conhecimentos';
@@ -8,6 +9,8 @@ import REACT from '../../assets/Icons/react.png';
 import MYSQL from '../../assets/Icons/mysql.png';
 import STYLEDCOMPONENTS from '../../assets/Icons/styled-components.png';
 import NODE from '../../assets/Icons/node.png'
+import Aos from 'aos';
+
 
 
 const tecnologias = [
@@ -20,14 +23,18 @@ const tecnologias = [
   },
   { nome: 'STYLEDCOMPONENTS', descricao: 'O Styled-components é uma biblioteca poderosa para estilização de componentes em aplicações React.' },
   { nome: 'MYSQL', descricao: 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.' },
-];
+]
+
 
 const Conhecimentos = () => {
   const [descricaoTecnologia, setDescricaoTecnologia] = useState(tecnologias[0]);
+  useEffect(() => {
+    Aos.init({delay: "5"})
+  },[])
 
 
   return (
-    <Container>
+    <Container data-aos="fade-left">
       <ContainerTitle>
         <TitleConhecimento>Conhecimentos</TitleConhecimento>
         <P>* PASSE O MOUSE POR CIMA PARA LER SOBRE AS TECNOLOGIAS *</P>
@@ -36,7 +43,7 @@ const Conhecimentos = () => {
       </ContainerTitle>
       <ContainerSkills>
         {tecnologias.map(tecnologia => (
-          <DivSkill key={tecnologia.nome}>
+          <DivSkill data-aos="flip-up" key={tecnologia.nome}>
             <Skills id='Skills' onMouseOver={() => setDescricaoTecnologia(tecnologia)} src={icons[tecnologia.nome]} alt={tecnologia.nome} />
           </DivSkill>
         ))}

@@ -1,67 +1,61 @@
-import styled,{keyframes} from 'styled-components'
+import styled from 'styled-components';
 
-const fadeInFromTop = keyframes`
-  from {
-    opacity: 0;
-    transform: translateY(-50%);
-  }
+export const Container = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  @media screen and (max-width: 767px){
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+
   }
 `;
 
-export const Container = styled.div`
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 700px;
-@media screen and (max-width: 767px){
-  display: flex;
-  flex-direction: column;
-}
-`
-
 export const TitleConhecimento = styled.h1`
-text-align: left;
-color: #fff;
-font-size: 2em;
-`
+  text-align: left;
+  color: #fff;
+  font-size: 2em;
+
+  @media screen and (max-width: 767px){
+    padding: 50px 0px;
+  }
+`;
 
 export const TitleTecnologia = styled.h2`
-font-size: 2em;
-color: #33ffff;
-text-align: center;
+  font-size: 2em;
+  color: #33ffff;
+  text-align: center;
 
-@media screen and (max-width: 767px){
-  display: none;
-}
-`
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+`;
+
 export const P = styled.p`
-color: #696e75;
-font-size: 1em;
-max-width: 600px;
+  color: #696e75;
+  font-size: 1em;
+  max-width: 600px;
 
-@media screen and (max-width: 767px){
-  display: none;
-}
-`
+  @media screen and (max-width: 767px){
+    display: none;
+  }
+`;
 
 export const ContainerTitle = styled.div`
-display: flex;
-flex-direction: column;
-gap: 50px;
-letter-spacing: 1px;
-animation: ${fadeInFromTop} 2s ease;
-
-`
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  letter-spacing: 1px;
+`;
 
 export const ContainerSkills = styled.div`
-display: flex;
-flex-wrap: wrap;
-max-width: 600px;
-`
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+`;
 
 export const Skills = styled.img`
   width: 125px;
@@ -72,7 +66,6 @@ export const Skills = styled.img`
   background-color: #151515;
   border: 2px solid transparent; 
   transition: border 0.5s ease; 
-  animation: ${fadeInFromTop} 2s ease;
 
   &:hover {
     border: 2px solid #33ffff; 
@@ -80,6 +73,12 @@ export const Skills = styled.img`
 `;
 
 export const DivSkill = styled.div`
-display: flex;
-margin: 30px;
-`
+  display: flex;
+  margin: 30px;
+
+  @media screen and (max-width: 767px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+`;

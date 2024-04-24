@@ -1,7 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ContainerExperiencia, TitleExperiencia, ContainerOptionsExperiencia, OptionsExperiencia, ContainerResumoExperiencia, ResumoExperiencias, ContainerGeralExperiencia, TitleResumoExperiencia, ContainerTitle, Anoexperiencia, Empresatrabalhada } from './../Experiencias/Experiencias';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Experiencias = () => {
+
+
+useEffect(() => {
+  Aos.init({duration: "1500"})
+},[])
+
   const [selectedOption, setSelectedOption] = useState("São João de Patos");
 
   const Todosresumos = {
@@ -9,6 +17,7 @@ const Experiencias = () => {
     "Experiencia 2": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit neque ipsa recusandae ipsam, architecto quis perferendis aspernatur, nisi pariatur, quaerat obcaecati nostrum similique totam nihil facere quibusdam incidunt hic harum.",
     "Experiencia 3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, aspernatur. Quas rem repellendus vitae doloribus. Voluptate quam dignissimos aliquid! Sequi laboriosam possimus quasi adipisci eligendi deleniti natus autem aspernatur molestiae."
   };
+  
 
   const Empresas = {
     "São João de Patos": "Prefeitura Municipal e Coollab Creative",
@@ -43,7 +52,7 @@ const Experiencias = () => {
   };
 
   return (
-    <ContainerExperiencia>
+    <ContainerExperiencia data-aos="fade-right">
       <TitleExperiencia>Experiências</TitleExperiencia>
       <ContainerGeralExperiencia id='ContainerGeralExperiencia'>
         <ContainerOptionsExperiencia>

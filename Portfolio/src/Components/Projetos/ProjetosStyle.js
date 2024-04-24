@@ -46,6 +46,11 @@ a#repositorio{
     color: #fff;
     background-size: 0 3px, 100% 3px;
   }
+
+  
+  @media screen and (max-width: 767px){
+    margin-top: 100px;
+}
 }
 `
 export const TitleProject = styled.h1`
