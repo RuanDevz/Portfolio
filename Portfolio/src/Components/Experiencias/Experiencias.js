@@ -59,7 +59,8 @@ export const ContainerOptionsExperiencia = styled.div`
 export const ContainerGeralExperiencia = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 300px;
 `;
 
 export const OptionsExperiencia = styled.p`

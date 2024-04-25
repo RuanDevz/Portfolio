@@ -42,12 +42,11 @@ const Projetos = () => {
     ];
 
     return (
-        <ContainerGeralProject data-aos="fade-down" data-aos-delay="200">
+        <ContainerGeralProject data-aos="fade-down" data-aos-delay="400">
             <TitleProject>Projetos</TitleProject>
             <ContainerProjects>
                 {projects.map((project, index) => (
-                    <Projeto data-aos="flip-left" data-aos-delay="400"
-                    date-aos-delay="3000" key={index}>
+                    <Projeto data-aos="flip-left" data-aos-delay="800" key={index}>
                         <h1>{project.Title}</h1>
                         <p>{project.Resumo}</p>
                         <a href={project.Link} target='_blank' style={{ textDecoration: 'none' }}><button>Visualizar projeto</button></a>

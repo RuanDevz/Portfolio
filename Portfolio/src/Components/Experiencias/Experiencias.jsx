@@ -52,7 +52,7 @@ useEffect(() => {
   };
 
   return (
-    <ContainerExperiencia data-aos="fade-right" data-aos-delay="200" >
+    <ContainerExperiencia data-aos="fade-right" data-aos-delay="400" >
       <TitleExperiencia>Experiências</TitleExperiencia>
       <ContainerGeralExperiencia id='ContainerGeralExperiencia'>
         <ContainerOptionsExperiencia>

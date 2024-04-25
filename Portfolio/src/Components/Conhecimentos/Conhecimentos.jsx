@@ -34,7 +34,7 @@ const Conhecimentos = () => {
 
 
   return (
-    <Container data-aos="fade-left" data-aos-delay="200">
+    <Container data-aos="fade-left" data-aos-delay="400">
       <ContainerTitle>
         <TitleConhecimento>Conhecimentos</TitleConhecimento>
         <P>* PASSE O MOUSE POR CIMA PARA LER SOBRE AS TECNOLOGIAS *</P>
@@ -43,7 +43,7 @@ const Conhecimentos = () => {
       </ContainerTitle>
       <ContainerSkills>
         {tecnologias.map(tecnologia => (
-          <DivSkill data-aos="flip-up" data-aos-delay="400" key={tecnologia.nome}>
+          <DivSkill data-aos="flip-up" data-aos-delay="800" key={tecnologia.nome}>
             <Skills id='Skills' onMouseOver={() => setDescricaoTecnologia(tecnologia)} src={icons[tecnologia.nome]} alt={tecnologia.nome} />
           </DivSkill>
         ))}
