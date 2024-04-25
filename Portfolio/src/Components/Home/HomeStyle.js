@@ -60,6 +60,7 @@ export const ContainerHome = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 40px;
+  padding-bottom: 50px;
 
   @media screen and (max-width: 1150px){
     display: flex;
