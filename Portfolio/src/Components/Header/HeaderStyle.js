@@ -17,7 +17,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 50px;
   animation: ${fadeIn} 1s ease-in;
 
   @media screen and (max-width: 767px) {
