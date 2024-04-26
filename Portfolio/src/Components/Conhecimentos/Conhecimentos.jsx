@@ -28,13 +28,10 @@ const tecnologias = [
 
 const Conhecimentos = () => {
   const [descricaoTecnologia, setDescricaoTecnologia] = useState(tecnologias[0]);
-  useEffect(() => {
-    Aos.init({delay: "5"})
-  },[])
 
 
   return (
-    <Container data-aos="fade-left" data-aos-delay="400">
+    <Container data-aos="fade-left" data-aos-delay="500"  data-aos-offset="400">
       <ContainerTitle>
         <TitleConhecimento>Conhecimentos</TitleConhecimento>
         <P>* PASSE O MOUSE POR CIMA PARA LER SOBRE AS TECNOLOGIAS *</P>

@@ -60,7 +60,6 @@ export const ContainerHome = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   margin-top: 40px;
-  padding-bottom: 50px;
 
   @media screen and (max-width: 1150px){
     display: flex;
@@ -129,6 +128,7 @@ export const Escrevendo = styled.p`
   animation: ${Typing} 4s steps(60), ${Blinking} 1s infinite step-end, ${BlinkCursor} 1s infinite;
 
   @media screen and (max-width: 1150px){
+    margin-top: 50px;
     max-width: 320px;
   }
 `;

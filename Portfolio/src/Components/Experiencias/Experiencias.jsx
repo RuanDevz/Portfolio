@@ -7,7 +7,7 @@ const Experiencias = () => {
 
 
 useEffect(() => {
-  Aos.init({duration: "1500"})
+  Aos.init({duration: "2000"})
 },[])
 
   const [selectedOption, setSelectedOption] = useState("São João de Patos");
@@ -52,7 +52,7 @@ useEffect(() => {
   };
 
   return (
-    <ContainerExperiencia data-aos="fade-right" data-aos-delay="400" >
+    <ContainerExperiencia data-aos="fade-right" data-aos-delay="400" data-aos-offset="500" >
       <TitleExperiencia>Experiências</TitleExperiencia>
       <ContainerGeralExperiencia id='ContainerGeralExperiencia'>
         <ContainerOptionsExperiencia>

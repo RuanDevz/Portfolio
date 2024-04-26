@@ -10,7 +10,8 @@ export const Container = styled.div`
   @media screen and (max-width: 1150px){
     display: flex;
     flex-direction: column;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
+    padding: 100px 0px;
 
   }
 `;
@@ -21,7 +22,8 @@ export const TitleConhecimento = styled.h1`
   font-size: 2em;
 
   @media screen and (max-width: 1150px){
-    padding: 50px 0px;
+    position: relative;
+    transform: translateY(500%);
   }
 `;
 
@@ -50,6 +52,8 @@ export const ContainerTitle = styled.div`
   flex-direction: column;
   gap: 50px;
   letter-spacing: 1px;
+
+
 `;
 
 export const ContainerSkills = styled.div`
@@ -81,5 +85,6 @@ export const DivSkill = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
 `;
