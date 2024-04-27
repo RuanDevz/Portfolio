@@ -107,6 +107,11 @@ gap: 80px;
   a{
     font-size: 2em;
   }
+  @media screen and (max-width: 767px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 
