@@ -34,11 +34,6 @@ const Projetos = () => {
             Resumo: "Site de apresentação do filme do Mario, feito com HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/youtube-site-mario/"
         },
-        {
-            Title: "Em construção",
-            Resumo: "Site de buscas do mercado livre, feito em React",
-            Link: ""
-        }
     ];
 
     return (

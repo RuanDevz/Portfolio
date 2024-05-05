@@ -8,8 +8,8 @@ import JAVASCRIPT from '../../assets/Icons/js.png';
 import REACT from '../../assets/Icons/react.png';
 import MYSQL from '../../assets/Icons/mysql.png';
 import STYLEDCOMPONENTS from '../../assets/Icons/styled-components.png';
-import NODE from '../../assets/Icons/node.png'
-import Aos from 'aos';
+import NODE from '../../assets/Icons/NodeJS.png'
+import TAILWINDCSS from '../../assets/Icons/Tailwind.png'
 
 
 
@@ -19,9 +19,12 @@ const tecnologias = [
   { nome: 'JAVASCRIPT', descricao: 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web' },
   { nome: 'REACT', descricao: 'O React é uma biblioteca modular, o que significa que os componentes podem ser facilmente reutilizados e compartilhados entre diferentes partes da aplicação.' },
   {
-    nome: 'NODE', descricao: 'Node.js é uma plataforma de desenvolvimento que permite usar JavaScript tanto no lado do servidor quanto no lado do cliente. Ele é eficiente para operações de I/O intensivas e é amplamente utilizado para criar aplicativos da web escaláveis e em tempo real, além de APIs RESTful.'
+    nome: 'TAILWINDCSS', descricao: 'O Tailwind CSS é um framework de desenvolvimento web que utiliza classes utilitárias para estilizar elementos HTML, oferecendo flexibilidade e eficiência na criação de layouts responsivos e personalizados.'
   },
   { nome: 'STYLEDCOMPONENTS', descricao: 'O Styled-components é uma biblioteca poderosa para estilização de componentes em aplicações React.' },
+  {
+    nome: 'NODE', descricao: 'Node.js é uma plataforma de desenvolvimento que permite usar JavaScript tanto no lado do servidor quanto no lado do cliente. Ele é eficiente para operações de I/O intensivas e é amplamente utilizado para criar aplicativos da web escaláveis e em tempo real, além de APIs RESTful.'
+  },
   { nome: 'MYSQL', descricao: 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation.' },
 ]
 
@@ -57,6 +60,7 @@ const icons = {
   NODE,
   MYSQL,
   STYLEDCOMPONENTS,
+  TAILWINDCSS
 };
 
 export default Conhecimentos;
