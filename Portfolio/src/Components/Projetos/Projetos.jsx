@@ -15,6 +15,11 @@ const Projetos = () => {
             Link: "https://pizzariamania3.vercel.app/"
         },
         {
+            Title: "BuenoBeauty",
+            Resumo: "Site para de cabeleleiro feito com React, TailwindCSS e AOS para animações",
+            Link: "https://bueno-beauty.vercel.app/"
+        },
+        {
             Title: "Italo Barbearia",
             Resumo: "Site de barbearia para a barbearia do meu bairro desenvolvido com HTML CSS SASS",
             Link: "https://italobarbearia.vercel.app/"
