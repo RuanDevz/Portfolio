@@ -36,7 +36,7 @@ const Projetos = () => {
         },
         {
             Title: "Mario e Luigi",
-            Resumo: "Site de apresentação do filme do Mario, feito com HTML, CSS e Javascript",
+            Resumo: "Landingpage de apresentação do filme do Mario, feito com HTML, CSS e Javascript",
             Link: "https://ruandevz.github.io/youtube-site-mario/"
         },
     ];
