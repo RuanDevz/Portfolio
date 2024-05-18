@@ -11,8 +11,13 @@ const Projetos = () => {
         },
         {
             Title: "Pizzaria Mania",
-            Resumo: "Site de uma pizzaria feita de REACT, NODE e MySQL",
+            Resumo: "Site de uma pizzaria feita de React, Node e MySQL",
             Link: "https://pizzariamania3.vercel.app/"
+        },
+        {
+            Title: "RentCars",
+            Resumo: "Site de aluguel de carros feito em React, Swiper e AOS",
+            Link: "https://rent-cars-tau.vercel.app/"
         },
         {
             Title: "BuenoBeauty",
