@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { HeaderContainer, Logo, Links, ContainerLinks, Logocolor, MenuHamburger } from './HeaderStyle';
 
 const Header = () => {
-  const [menuActive, setMenuActive] = useState(true);
+  const [menuActive, setMenuActive] = useState(false);
 
   const handleMenu = () => {
     setMenuActive(!menuActive);
