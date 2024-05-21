@@ -17,7 +17,7 @@ const Projetos = () => {
         {
             Title: "RentCars",
             Resumo: "Site de aluguel de carros feito em React, Swiper e AOS",
-            Link: "https://rent-cars-tau.vercel.app/"
+            Link: "https://rent-cars-lyfn.vercel.app/"
         },
         {
             Title: "BuenoBeauty",
