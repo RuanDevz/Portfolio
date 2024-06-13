@@ -10,19 +10,24 @@ const Projetos = () => {
             Link: "https://saojoao-patos-certo.vercel.app/"
         },
         {
-            Title: "Pizzaria Mania",
-            Resumo: "Site de uma pizzaria feita de React, Node e MySQL",
-            Link: "https://pizzariamania3.vercel.app/"
-        },
-        {
             Title: "RentCars",
             Resumo: "Site de aluguel de carros feito em React, Swiper e AOS",
             Link: "https://rent-cars-lyfn.vercel.app/"
         },
         {
+            Title: "Mercado Livre",
+            Resumo: "Site simples para buscas de produtos com API do Mercado Livre",
+            Link: "https://mercado-livre-rho.vercel.app/"
+        },
+        {
             Title: "BuenoBeauty",
             Resumo: "Site para de cabeleleiro feito com React, TailwindCSS e AOS para animações",
             Link: "https://bueno-beauty.vercel.app/"
+        },
+        {
+            Title: "Pizzaria Mania",
+            Resumo: "Site de uma pizzaria feita de React, Node e MySQL",
+            Link: "https://pizzariamania3.vercel.app/"
         },
         {
             Title: "Italo Barbearia",
