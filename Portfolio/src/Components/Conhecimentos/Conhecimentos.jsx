@@ -10,6 +10,7 @@ import MYSQL from '../../assets/Icons/mysql.png';
 import STYLEDCOMPONENTS from '../../assets/Icons/styled-components.png';
 import NODE from '../../assets/Icons/NodeJS.png'
 import TAILWINDCSS from '../../assets/Icons/Tailwind.png'
+import TYPESCRIPT from '../../assets/Icons/Typescript.png'
 
 
 
@@ -17,6 +18,8 @@ const tecnologias = [
   { nome: 'HTML', descricao: 'HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores' },
   { nome: 'CSS', descricao: 'CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense na decoração da sua página.' },
   { nome: 'JAVASCRIPT', descricao: 'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web' },
+  { nome: 'TYPESCRIPT', descricao: 'TypeScript é um superconjunto de JavaScript que adiciona digitação estática opcional e recursos avançados ao JavaScript.' },
+
   { nome: 'REACT', descricao: 'O React é uma biblioteca modular, o que significa que os componentes podem ser facilmente reutilizados e compartilhados entre diferentes partes da aplicação.' },
   {
     nome: 'TAILWINDCSS', descricao: 'O Tailwind CSS é um framework de desenvolvimento web que utiliza classes utilitárias para estilizar elementos HTML, oferecendo flexibilidade e eficiência na criação de layouts responsivos e personalizados.'
@@ -56,6 +59,7 @@ const icons = {
   HTML,
   CSS,
   JAVASCRIPT,
+  TYPESCRIPT,
   REACT,
   NODE,
   MYSQL,

@@ -5,14 +5,19 @@ const Projetos = () => {
 
     const projects = [
         {
-            Title: "São João de Patos 2024",
-            Resumo: "Site de votação, feito em React com API Sheetmonkey,TailwindCSS e Node.js",
-            Link: "https://saojoaodepatos2024.vercel.app/"
+            Title: "Club Clothing",
+            Resumo: "Ecomerce de compras feito com React, Typescript, TailwindCSS, Node.js, NextUI e Postgres",
+            Link: "https://club-ecomerce.vercel.app/"
         },
         {
             Title: "RentCars",
             Resumo: "Site de aluguel de carros feito em React, Swiper e AOS",
             Link: "https://rent-cars-lyfn.vercel.app/"
+        },
+        {
+            Title: "São João de Patos 2024",
+            Resumo: "Site de votação, feito em React com API Sheetmonkey,TailwindCSS e Node.js",
+            Link: "https://saojoaodepatos2024.vercel.app/"
         },
         {
             Title: "Mercado Livre",
