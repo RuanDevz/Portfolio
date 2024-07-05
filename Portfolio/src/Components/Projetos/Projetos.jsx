@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { TitleProject, ContainerGeralProject, ContainerProjects, Projeto } from './ProjetosStyle';
 
 const Projetos = () => {
@@ -8,6 +8,11 @@ const Projetos = () => {
             Title: "Club Clothing",
             Resumo: "Ecomerce de compras feito com React, Typescript, TailwindCSS, Node.js, NextUI e Postgres",
             Link: "https://club-ecomerce.vercel.app/"
+        },
+        {
+            Title: "TypeWeather",
+            Resumo: "Site de previsão do tempo, utilizando React Typescript TailwindCSS e API OpenWeatherMap",
+            Link: "https://type-weather-two.vercel.app/"
         },
         {
             Title: "RentCars",
