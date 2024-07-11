@@ -20,6 +20,7 @@ export const TitleConhecimento = styled.h1`
   text-align: left;
   color: #fff;
   font-size: 2em;
+  margin-top: 60px;
 
   @media screen and (max-width: 1150px){
     position: relative;
@@ -58,12 +59,13 @@ export const ContainerTitle = styled.div`
 
 export const ContainerSkills = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 600px;
 `;
 
 export const Skills = styled.img`
-  width: 125px;
+  width: 115px;
   color: #33ffff;
   padding: 10px;
   border-radius: 5px;
@@ -79,7 +81,7 @@ export const Skills = styled.img`
 
 export const DivSkill = styled.div`
   display: flex;
-  margin: 30px;
+  margin: 25px;
 
   @media screen and (max-width: 1150px){
     display: flex;
