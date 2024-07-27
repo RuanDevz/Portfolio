@@ -5,6 +5,12 @@ const Projetos = () => {
 
     const projects = [
         {
+            Title: "EcoMarket",
+            Resumo: "Ecomerce de compras feito em NextJs, Typescript, TailwindCSS, Sanity, Shadcn, ShoppingCart e Stripe",
+            Link: "https://eco-market-phi.vercel.app/"
+        },
+
+        {
             Title: "Club Clothing",
             Resumo: "Ecomerce de compras feito com React, Typescript, TailwindCSS, Node.js, NextUI e Postgres",
             Link: "https://club-ecomerce.vercel.app/"
